@@ -1,15 +1,15 @@
 from django.db import models
-
-# Create your models here.
-#request and response
+from django.utils.html import mark_safe
 
 
 class Brand(models.Model):
+
     name = models.CharField(max_length=200)
     is_active = models.BooleanField()
 
 
 class Category(models.Model):
+
     name = models.CharField(max_length=200)
     is_active = models.BooleanField()
 
@@ -18,6 +18,7 @@ class Category(models.Model):
 
 
 class Product(models.Model):
+
     name = models.CharField(max_length=200)
     price = models.FloatField()
     quantity = models.IntegerField()
@@ -27,3 +28,12 @@ class Product(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     registered_on = models.DateTimeField()
     is_active = models.BooleanField()
+
+    def image_tag(self):
+        return mark_safe(f'<img src="{self.image_url}" width="50"height="50" />')
+    image_tag.short_description = "Product"
+
+    def __str__(self):
+        return self.name
+
+# Create your models here.
