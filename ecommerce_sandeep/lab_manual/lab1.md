@@ -6,9 +6,9 @@ To install and create suitable running and compiling environments
 To create superuser, users and run the server
 To add modules and verify CRUD operation
 b. Introduction
-We use different frameworks and environments for this lab. We have used VS Code as the IDE and Python/Django as the framework. An E-commerce website is a website that helps customers and sellers in buying/selling their products on the online platform. It is one of the best modern ways of business. E-commerce websites simplify the buying process of goods and services. We will be creating an e-commerce website for this lab report.
+For this lab, we employ a variety of frameworks and settings. The IDE we used was VS Code, and the framework was Python/Django. An e-commerce website is one that allows users and sellers to buy and sell things over the internet. It is one of the most effective current company models. E-commerce platforms make purchasing goods and services easier. For this lab report, we will create an e-commerce website.
 
-Additionally, we also need to know about the languages. Python is the most popular programming language with easy understanding and efficient structure. We use Django, a web-based open-source framework of Python. Django comes with many inbuilt models which makes us easier to focus on the writing part of the application. And VS Code is one of the most versatile IDE out there.
+We also need to be aware of the various languages. Python is the most widely used programming language, thanks to its simple syntax and efficient structure. Django is a Python web-based open-source framework. Django has a lot of built-in models, which makes it easy to concentrate on the application's writing. VS Code is another option and versatile IDE out there.
 
 Git is also used in this lab for source control. We can also use Github Desktop for commit'ing and push'ing the code into a repository on GitHub. That repository when made public can be shared with anyone .
 
@@ -42,7 +42,7 @@ Then, we added a module product_module and migrated files to the database. Now, 
 
 4. Source Control
 
-Finally, we used Git for source control. We created a repository with the name ecommerce_barun and created a markdown file “lab1.md” which is this document. Then, we committed and pushed the code and folder to the repository. The repository is now available at: https://github.com/thebarunsharma/ecommerce_barun/
+Finally, we used Git for source control. We created a repository with the name ecommerce_sandeep and created a markdown file “lab1.md” which is this document. Then, we committed and pushed the code and folder to the repository. The repository is now available at: https://github.com/Sandeepbhatta/ecommerce_sandeep-1/tree/main/ecommerce_sandeep/lab_manual
 
 d. Output
 Installation of python| pip alt text
@@ -62,4 +62,4 @@ CRUD operation alt text
 Git initialization alt text
 
 e. Conclusion
-The first lab of e-commerce taught us many things. Initial setup helped us create environments and setup efficiently. Then, we knew how to start a project using Django. Knowledge about running the server was also obtained. We knew how to do CRUD operations on the server. Finally, we also knew more about source control using Git and Github. Making a repository on Github and sharing it made our code easily accessible.
+We learned a lot from the first e-commerce lab. The initial setup aided us in quickly creating environments and setting up. Then we knew how to start a Django project. It was also learned how to operate the server. On the server, we knew how to perform CRUD operations. Finally, we learned more about Git and Github for source control. Our code was easily available after we created a Github repository and shared it.
