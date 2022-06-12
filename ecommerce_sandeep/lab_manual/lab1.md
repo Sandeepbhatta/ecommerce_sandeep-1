@@ -32,9 +32,10 @@ We had some of them already and set up the remaining. The software could be diff
 
 After the environment setup, we started the project and migrated files.
 
-Syntax: django-admin startproject ecommerce_barun cd ecommerce_barun python manage.py migrate
+Syntax: django-admin startproject ecommerce_sandeep cd ecommerce_sandeep python manage.py migrate
 
-We ran the server if it was working. Then, we got the link for the server as 127.0.0.1:8000. Again, we verified the admin side using 127.0.0.1:8000/admin. We were able to create a superuser and other users. Syntax: python manage.py runserver
+We ran the server if it was working. Then, we got the link for the server as 127.0.0.1:8000. Again, we verified the admin side using 127.0.0.1:8000/admin. We were able to create a superuser and other users.
+Syntax: python manage.py runserver
 
 3. Database verification and CRUD operations
 
