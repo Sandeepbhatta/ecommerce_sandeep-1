@@ -9,6 +9,10 @@ def index1(request):
     return render(request, 'index1.html', {})
 
 
+def about(request):
+    return render(request, 'about.html', {})
+
+
 def index(request):
 
     if request.method == "GET":
